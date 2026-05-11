@@ -19,6 +19,7 @@
     "test": "turbo test",
     "db:generate": "pnpm --filter @hidden-village/db db:generate",
     "db:migrate": "pnpm --filter @hidden-village/db db:migrate",
+    "db:migrate:prod": "pnpm --filter @hidden-village/db db:migrate:prod",
     "db:seed": "pnpm --filter @hidden-village/auth seed",
     "db:studio": "pnpm --filter @hidden-village/db db:studio",
     "check-types": "turbo typecheck"
