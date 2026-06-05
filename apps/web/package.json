@@ -23,6 +23,7 @@
     "@aws-sdk/s3-request-presigner": "^3.1045.0",
     "@fontsource-variable/noto-sans": "^5.2.10",
     "@hidden-village/auth": "workspace:*",
+    "@hidden-village/banking": "workspace:*",
     "@hidden-village/db": "workspace:*",
     "@hidden-village/jobs": "workspace:*",
     "@hidden-village/storage": "workspace:*",
