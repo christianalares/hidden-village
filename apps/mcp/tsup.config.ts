@@ -6,5 +6,8 @@ export default defineConfig({
   platform: 'node',
   target: 'node22',
   clean: true,
+  banner: {
+    js: '#!/usr/bin/env node',
+  },
   noExternal: ['@hidden-village/finance', '@hidden-village/db'],
 })
