@@ -9,5 +9,5 @@ export default defineConfig({
   banner: {
     js: '#!/usr/bin/env node',
   },
-  noExternal: ['@hidden-village/finance', '@hidden-village/db'],
+  noExternal: ['@hidden-village/finance', '@hidden-village/db', '@hidden-village/storage'],
 })
