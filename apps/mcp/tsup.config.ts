@@ -10,4 +10,5 @@ export default defineConfig({
     js: '#!/usr/bin/env node',
   },
   noExternal: ['@hidden-village/finance', '@hidden-village/db', '@hidden-village/storage'],
+  external: ['@napi-rs/canvas', 'pdf-to-img', 'pdfjs-dist'],
 })
